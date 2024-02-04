@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Day_13_Bootstrap_assignment</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary shadow">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Navbar</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Courses</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About Us</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div id="myslider" class="carousel slide w-50 mx-auto carousel-fade">
+      <div class="carousel-indicators">
+        <button
+          type="button"
+          data-bs-target="#myslider"
+          data-bs-slide-to="0"
+          class="active"
+          aria-current="true"
+          aria-label="Slide 1"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#myslider"
+          data-bs-slide-to="1"
+          aria-label="Slide 2"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#myslider"
+          data-bs-slide-to="2"
+          aria-label="Slide 3"
+        ></button>
+      </div>
+      <div class="carousel-inner my-4">
+        <div class="carousel-item active">
+          <img
+            src="img/wallpaperflare.com_wallpaper (8).jpg"
+            class="d-block w-100"
+            alt="..."
+          />
+          <div class="carousel-caption d-none d-md-block">
+            <h5>First slide label</h5>
+            <p>Some representative placeholder content for the first slide.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="img/194154.jpg" class="d-block w-100" alt="..." />
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Second slide label</h5>
+            <p>Some representative placeholder content for the second slide.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="img/18002 (1).jpg" class="d-block w-100" alt="..." />
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Third slide label</h5>
+            <p>Some representative placeholder content for the third slide.</p>
+          </div>
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#myslider"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#myslider"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      </button>
+    </div>
+
+    <nav aria-label="Pangination">
+      <ul class="pagination justify-content-center">
+        <li class="page-item">
+          <span class="page-link">Previous</span>
+        </li>
+        <li class="page-item"><a class="page-link" href="#">1</a></li>
+        <li class="page-item active" aria-current="page">
+          <span class="page-link">2</span>
+        </li>
+        <li class="page-item"><a class="page-link" href="#">3</a></li>
+        <li class="page-item">
+          <a class="page-link" href="#">Next</a>
+        </li>
+      </ul>
+    </nav>
+
+    <div class="container my-4">
+      <div class="row">
+        <div class="col-md-3">
+          <div class="card">
+            <img src="images/beautiful.jpg" alt="" class="d-block CARD_IMG" />
+            <div class="card-body">
+              <div class="card-title"><h4>Card Title</h4></div>
+              <div class="card-text">
+                <p>
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quod
+                  id placeat veritatis. Eos beatae animi facere deleniti vitae
+                  nemo sint cupiditate, eius commodi, cum quisquam pariatur
+                  velit. Temporibus, cum nesciunt.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="card">
+            <img
+              src="img/wallpaperflare.com_wallpaper (8).jpg"
+              alt=""
+              class="d-block CARD_IMG"
+            />
+            <div class="card-body">
+              <div class="card-title"><h4>snowy owl</h4></div>
+              <div class="card-text">
+                <p>
+                  Unless you visit the high arctic, you’ll mainly be looking for
+                  Snowy Owls during winter in wide-open areas such as fields and
+                  shorelines. Scan snowy flat areas and be on the lookout for
+                  any irregularities in the snow. A lump or dirty patch could be
+                  a Snowy Owl facing away from you. Snowy Owls like to perch in
+                  conspicuous areas, so be sure to check high points like hay
+                  bales, fenceposts, telephone poles, buildings, or grain
+                  elevators. Also look for agitated birds—other raptors or gulls
+                  may swoop at a Snowy Owl sitting on a beach.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="card">
+            <img src="img/194154.jpg" alt="" class="d-block CARD_IMG" />
+            <div class="card-body">
+              <div class="card-title"><h4>great horned owl</h4></div>
+              <div class="card-text">
+                <p>
+                  With its long, earlike tufts, intimidating yellow-eyed stare,
+                  and deep hooting voice, the Great Horned Owl is the
+                  quintessential owl of storybooks. This powerful predator can
+                  take down birds and mammals even larger than itself, but it
+                  also dines on daintier fare such as tiny scorpions, mice, and
+                  frogs. It’s one of the most common owls in North America,
+                  equally at home in deserts, wetlands, forests, grasslands,
+                  backyards, cities, and almost any other semi-open habitat
+                  between the Arctic and the tropics.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="card">
+            <img src="img/18002 (1).jpg" alt="" class="d-block CARD_IMG" />
+            <div class="card-body">
+              <div class="card-title"><h4>barn owl</h4></div>
+              <div class="card-text">
+                <p>
+                  Barred Owls are easiest to find when they are active at
+                  night—they’re a lot easier to hear than to see.Visit forests
+                  near water (big bottomland forest along a river is prime
+                  Barred Owl habitat) and listen carefully,paying attention for
+                  the species“Who cooks for you?” call.At greatdistance.Try
+                  imitating the call with your own voice and then wait
+                  quietly.If you’re lucky, a territorial Barred Owl will fly in
+                  to investigate you. During the daytime,a quiet walk through
+                  mature forest might reveal a roosting Barred Owl if you are
+                  lucky.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid justify-content-center">
+        <p class="text-secondary">copyright&copy;2023</p>
+      </div>
+    </nav>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
